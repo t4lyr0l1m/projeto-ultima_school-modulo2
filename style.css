@@ -1,0 +1,69 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: #fafbfd;
+}
+#container-login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.label-login {
+    font-size: 10px;
+}
+.input-login {
+    width: 280px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+#check {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#check-rem {
+    display: flex;
+    align-items: center;
+}
+button {
+    width: 280px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    height: 25px;
+    margin-top: 10px;
+}
+#email {
+    background-image: url(img/email.png);
+    background-size: 14px;
+    background-repeat: no-repeat;
+    background-position: left;
+    text-indent: 20px;
+    font-size: 10px;
+}
+#pass {
+    background-image: url(img/senha.png);
+    background-size: 14px;
+    background-repeat: no-repeat;
+    background-position: left;
+    text-indent: 20px;
+    font-size: 10px;
+}
