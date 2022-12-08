@@ -1,9 +1,10 @@
 body {
     font-family: 'Roboto Slab', serif;
-    background-color: #fafbfd;
+    margin: 0px;
 }
 #container-login {
     height: 100vh;
+    width: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,8 +12,11 @@ body {
 }
 #login {
     display: flex;
+    font-weight: 500;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+    margin-top: 70px;
     flex-wrap: wrap;
     font-size: 14px;
 }
@@ -25,11 +29,15 @@ form {
 }
 .label-login {
     font-size: 10px;
+    text-decoration: none;
 }
 .input-login {
-    width: 280px;
+    width: 240px;
     height: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border-width: 0px;
+    background-color:#F4F4F4;
 }
 #check {
     display: flex;
@@ -43,13 +51,16 @@ form {
     align-items: center;
 }
 button {
-    width: 280px;
-    border-radius: 20px;
-    background-color: black;
+    width: 240px;
+    border-radius: 3px;
+    background-color:#2A88C8;
+    border-color: #2A88C8;
+    border-width: 0px;
     color: white;
     font-size: 12px;
     height: 25px;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 #email {
     background-image: url(img/email.png);
@@ -66,4 +77,19 @@ button {
     background-position: left;
     text-indent: 20px;
     font-size: 10px;
+}
+#image {
+    background-image: url(img/imgSide.png);
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+#screen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
